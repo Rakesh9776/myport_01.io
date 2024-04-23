@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 Inputs form</title>
+  
+    <style type="text/css">
+	body{
+		background-image: url(assets/int.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		position: static;
+	}
+	.raka{
+		width:500px;
+		height:700px;
+		background: linear-gradient(rgb(54, 149, 177),white);
+		text-align: center;
+		top: 50%;
+		left: 50%;
+		position: fixed;
+		transform: translate(-50% , -50%);
+		box-shadow: 5px 5px 5px;
+		
+        
+	}
+	
+</style>
+</head>
+<body>
+<container class="raka" />
+<form><br> <br><br>
+	 Name: <input type="text" />
+	 <br><br><br>
+	 email: <input type="email" />
+	 <br><br><br>
+	 mobile:<input type="mobile">
+	 <br><br><br>
+	 <label for="state">choose State:</label>
+	 <input list="states" id="state" name="state" />
+	 <datalist id="states">
+	 	<option value="Andhra pradesh">
+	 	<option value="Arunachal pradesh">
+	    <option value="Assam">
+	 	<option value="bihar">
+	 	<option value="chhatisgarh">
+	 	<option value="Goa">
+	 	<option value="Gujrat">
+	 	<option value="Haryana">
+	 	<option value="Himachal pradesh">
+	 	<option value="jharkhand">
+	    <option value="Karnataka">
+	    <option value="kerala">
+	 	<option value="Madhya pradesh">
+	 	<option value="Maharashtra">
+	 	<option value="Manipur">
+	 	<option value="Meghalaya">
+	 	<option value="Mizoram">
+	    <option value="Nagaland">
+	 	<option value="Odisha">
+	 	<option value="Punjab">
+	 	<option value="Rajasthan">
+	 	<option value="Sikkim">
+	 	<option value="Tamilnadu">
+	 	<option value="Telengana">
+	 	<option value="Tripura">
+	 	<option value="UttarPradesh">
+	 	<option value="Uttarakhand">
+	 	<option value="Westbengal">
+
+	 </datalist>
+	 					<br><br><br>
+     password:  <input  type="password">
+	 <br><br><br>
+	 Gender: <input type="radio" name="k">Male
+	 		<input type="radio" name="k">Female
+	 		<input type="radio" name="k">Others
+	 		<br><br><br>
+	 Course: <input type="checkbox" value="PHP">PHP
+	 	<input type="checkbox" value="java">JAVA
+	 		<input type="checkbox" value="py">PY
+	 		<br><br><br>
+	
+	 Date: <input type="Date">
+	 <br><br><br>
+	 Image:<input type="file">
+	 <br><br><br>
+	 Resume: <input type="file">
+	 <br><br><br>
+	 <style type="text/css">
+	 	.p{
+	 		background-color: rgb(9, 241, 98);
+	 		border-radius: 50px;
+            cursor: pointer;
+	 	}
+	 </style>
+	 <input type="submit" value="register" class="p" />
+	 <br>
+	</form>
+</div>
+</body>
+</html>
+
